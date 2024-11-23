@@ -5,7 +5,7 @@ import BookingSystem from './components/BookingSystem';
 import MonitoringPage from './components/MonitoringPage';
 import BookingPage from './components/BookingPage';
 import SettingsPage from './components/SettingsPage';
-import './App.css'; // Импортируйте ваш CSS файл
+import './App.css'; 
 
 function App() {
   const [servers, setServers] = useState([]);
