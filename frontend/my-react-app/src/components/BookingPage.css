@@ -1,0 +1,60 @@
+.booking-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .slots-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .slot {
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .slot:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .slot.booked {
+    background-color: #ffcccc;
+    color: #a00;
+    cursor: not-allowed;
+  }
+  
+  .slot.selected {
+    background-color: #cce5ff;
+    border-color: #007bff;
+  }
+  
+  .confirmation {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .confirmation button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .confirmation button:hover {
+    background-color: #0056b3;
+  }
+  

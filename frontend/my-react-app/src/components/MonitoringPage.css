@@ -1,0 +1,39 @@
+.header {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin: 0;
+    margin-right: 10px; /* Добавляем отступ справа от заголовка */
+  }
+  
+  .icon {
+    width: 37px; /* Устанавливаем ширину иконки */
+    height: 37px; /* Устанавливаем высоту иконки */
+  }
+  
+  .resources_widgets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Добавляем перенос на новую строку */
+    justify-content: space-between;
+  }
+  
+  .resources {
+    width: 400px;
+    height: 350px;
+    margin: 10px; /* Добавляем отступы между блоками */
+    border: solid red 2px;
+    box-sizing: border-box; /* Учитываем отступы и границы в размерах блока */
+  }
+  
